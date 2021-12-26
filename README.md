@@ -26,15 +26,15 @@ Under the folder contracts, create a file called "etc20-token.sol" and import th
 
 ### Set Max Supply
 
-Set the max supply of your token by modifying the variable _maxSupply on line 20
+Set the max supply of your token by modifying the variable _maxSupply on line 9
 ```
-    uint256 private _maxSupply = 21000000 * 10 ** decimals();
+    uint256 private _maxSupply = 10000000 * 10 ** decimals();
 ```
-The max supply is set at 21000000 (21M) coins, change this accordingly to fit your needs. The max supply of tokens will never change after deployment as it will be hard-coded into the contract.
+The max supply is set at 10000000 (10M) coins, change this accordingly to fit your needs. The max supply of tokens will never change after deployment as it will be hard-coded into the contract.
 
 ### Name Your Coin
 
-Change the name of your token by going to line 22 and changing the text inside the quotation.
+Change the name of your token by going to line 11 and changing the text inside the quotation.
 
 ```
     constructor() ERC20("BFY Digital", "BFY") {
@@ -43,11 +43,10 @@ The first quotation "BFY Digital" is the coin name. The second quotation "BFY" i
 
 ### PreMint Amount
 
-Change the premint amount by going to line 26 and changing the number
+Change the premint amount by going to line 12 and changing the number
 ```
      _mint(msg.sender, 1000000 * 10 ** decimals());
 ```
-Change 1000000 to however many tokens you would like to premint when the contract is deployed. This function is only ran once at deployment. Make sure this doesn't exceed the max supply.
 
 ## 🎈 Usage <a name="usage"></a>
 
