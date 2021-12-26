@@ -10,19 +10,20 @@
 - [Usage](#usage)
 - [Deployment](#deployment)
 - [Built Using](#built_using)
-- [Acknowledgments](#acknowledgement)
+- [Mint Token](#minting)
+- [Burn Token](#burning)
 
 ## 🧐 About <a name = "about"></a>
 
-An ERC20 Token that is mintable, burnable, and has a max supply.
+IT's example of ERC20 Token that mintable, burnable, and has a max supply.
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## Getting Started <a name = "getting_started"></a>
 
 ### Remix IDE
 Go to http://remix.ethereum.org and create a new workspace.
 Under the folder contracts, create a file called "etc20-token.sol" and import the code 
 
-## 🔧 Configuring Your Token <a name = "configuring"></a>
+## Configuring Your Token <a name = "configuring"></a>
 
 ### Set Max Supply
 
@@ -48,11 +49,11 @@ Change the premint amount by going to line 12 and changing the number
      _mint(msg.sender, 1000000 * 10 ** decimals());
 ```
 
-## 🎈 Usage <a name="usage"></a>
+## Usage <a name="usage"></a>
 
 Compile the code on Remix IDE using the 0.8.2 Solidity Compiler.
 
-## 🚀 Deployment <a name = "deployment"></a>
+## Deployment <a name = "deployment"></a>
 
 Deploy your contract using Remix IDE. Ensure you have enough for gas fees and that you are connected to the correct network.
 
@@ -61,3 +62,12 @@ Deploy your contract using Remix IDE. Ensure you have enough for gas fees and th
 - [Remix](https://remix.ethereum.org) - IDE
 - [OpenZeppelin](https://openzeppelin.com/) - Reusable Smart Contracts
 - [Solidity](https://soliditylang.org/) - Programming Langauge
+
+## Mint Token <a name = "minting"></a>
+
+After deployment, you can call "mint" function from owner account with "erc20 address" and "amount" parameters. (on line: 19)
+
+## Burn Token <a name = "minting"></a>
+
+If you want to bunn some token, you can call "mint" function from owner account with "0x0000000000000000000000000000000000000000" (genesis address) and "amount" parameters. (on line: 19)
+
