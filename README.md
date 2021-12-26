@@ -57,12 +57,6 @@ Compile the code on Remix IDE using the 0.8.2 Solidity Compiler.
 
 Deploy your contract using Remix IDE. Ensure you have enough for gas fees and that you are connected to the correct network.
 
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [Remix](https://remix.ethereum.org) - IDE
-- [OpenZeppelin](https://openzeppelin.com/) - Reusable Smart Contracts
-- [Solidity](https://soliditylang.org/) - Programming Langauge
-
 ## Mint Token <a name = "minting"></a>
 
 After deployment, you can call "mint" function from owner account with "erc20 address" and "amount" parameters. (on line: 19)
@@ -70,4 +64,10 @@ After deployment, you can call "mint" function from owner account with "erc20 ad
 ## Burn Token <a name = "minting"></a>
 
 If you want to burn some token with your code, you can call "mint" function from owner account with "0x0000000000000000000000000000000000000000" (genesis address) and "amount" parameters. (on line: 19) or you can use "burn" function is come from "ERC20Burnable" package with amount parameters.
+
+## Built Using <a name = "built_using"></a>
+
+- [Remix](https://remix.ethereum.org) - IDE
+- [OpenZeppelin](https://openzeppelin.com/) - Reusable Smart Contracts
+- [Solidity](https://soliditylang.org/) - Programming Langauge
 
