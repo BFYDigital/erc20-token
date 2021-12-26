@@ -21,7 +21,13 @@ IT's example of ERC20 Token that mintable, burnable, and has a max supply.
 
 ### Remix IDE
 Go to http://remix.ethereum.org and create a new workspace.
-Under the folder contracts, create a file called "etc20-token.sol" and import the code 
+Under the folder contracts, create a file called "etc20token.sol" and import the code 
+
+if you are using remix and get error, you should replace import packages to with urls like this.
+```
+import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/master/contracts/token/ERC20/extensions/ERC20Burnable.sol";
+import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/master/contracts/access/Ownable.sol";
+```
 
 ## Configuring Your Token <a name = "configuring"></a>
 
