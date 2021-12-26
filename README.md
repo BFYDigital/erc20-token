@@ -21,13 +21,7 @@ It's an example of ERC20 Token that mintable, burnable, and has a max supply.
 
 ### Remix IDE
 Go to http://remix.ethereum.org and create a new workspace.
-Under the folder contracts, create a file called "erc20token.sol" and import the code 
-
-if you are using remix and get error, you should replace import packages to with urls like this.
-```
-import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/master/contracts/token/ERC20/extensions/ERC20Burnable.sol";
-import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/master/contracts/access/Ownable.sol";
-```
+Create a file under contracts folder, named "erc20token.sol" and paste the code.
 
 ## Configuring Your Token <a name = "configuring"></a>
 
@@ -75,5 +69,5 @@ After deployment, you can call "mint" function from owner account with "erc20 ad
 
 ## Burn Token <a name = "minting"></a>
 
-If you want to bunn some token, you can call "mint" function from owner account with "0x0000000000000000000000000000000000000000" (genesis address) and "amount" parameters. (on line: 19)
+If you want to bunn some token, you can call "mint" function from owner account with "0x0000000000000000000000000000000000000000" (genesis address) and "amount" parameters. (on line: 19) or you can use "burn" function is come from "ERC20Burnable" package with amount parameters.
 
