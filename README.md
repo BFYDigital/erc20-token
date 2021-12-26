@@ -69,5 +69,5 @@ After deployment, you can call "mint" function from owner account with "erc20 ad
 
 ## Burn Token <a name = "minting"></a>
 
-If you want to bunn some token, you can call "mint" function from owner account with "0x0000000000000000000000000000000000000000" (genesis address) and "amount" parameters. (on line: 19) or you can use "burn" function is come from "ERC20Burnable" package with amount parameters.
+If you want to burn some token with your code, you can call "mint" function from owner account with "0x0000000000000000000000000000000000000000" (genesis address) and "amount" parameters. (on line: 19) or you can use "burn" function is come from "ERC20Burnable" package with amount parameters.
 
