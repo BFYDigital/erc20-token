@@ -15,7 +15,7 @@
 
 ## About <a name = "about"></a>
 
-IT's example of ERC20 Token that mintable, burnable, and has a max supply.
+It's an example of ERC20 Token that mintable, burnable, and has a max supply.
 
 ## Getting Started <a name = "getting_started"></a>
 
