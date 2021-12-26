@@ -2,7 +2,7 @@
 <h1 align="center">An ERC20 Token based on OpenZeppelin contracts</h1>
 <br />
 
-## 📝 Table of Contents
+## Table of Contents
 
 - [About](#about)
 - [Getting Started](#getting_started)
@@ -13,7 +13,7 @@
 - [Mint Token](#minting)
 - [Burn Token](#burning)
 
-## 🧐 About <a name = "about"></a>
+## About <a name = "about"></a>
 
 IT's example of ERC20 Token that mintable, burnable, and has a max supply.
 
